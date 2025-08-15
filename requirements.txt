@@ -1,4 +1,5 @@
-pencv-python>=4.8.0
+opencv-python>=4.8.0
+
 mediapipe>=0.10.7
 numpy>=1.24.0
 matplotlib>=3.7.0
