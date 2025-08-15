@@ -1,0 +1,38 @@
+{
+  "video_url": "https://youtube.com/shorts/vSX3IRxGnNY",
+  "input_path": "input/cricket_video.mp4",
+  "output_dir": "output",
+  
+  "pose_detection": {
+    "pose_confidence": 0.7,
+    "pose_detection_confidence": 0.6,
+    "model_complexity": 1
+  },
+  
+  "analysis_thresholds": {
+    "elbow_min": 90,
+    "elbow_max": 140,
+    "spine_lean_max": 15,
+    "head_knee_max": 30,
+    "foot_angle_optimal": 45
+  },
+  
+  "reference_comparison": {
+    "elbow_ideal": 115,
+    "spine_lean_ideal": 5,
+    "head_knee_ideal": 10
+  },
+  
+  "features": {
+    "enable_phase_detection": true,
+    "enable_contact_detection": true,
+    "enable_smoothness_analysis": true,
+    "enable_reference_comparison": true
+  },
+  
+  "performance": {
+    "target_fps": 10.0,
+    "fps_target": 15
+  }
+}
+
